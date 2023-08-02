@@ -1,0 +1,28 @@
+.sidebar {
+	width: 400px;
+	height: 100vh;
+	z-index: 10px;
+	background-color: #35a29f;
+	position: fixed;
+	padding: 30px 80px;
+}
+
+.sidebar .close button {
+	border: none;
+	background-color:#35A29F;
+}
+
+.sidebar .side-links {
+	display: flex;
+	flex-direction: column;
+	gap: 40px;
+	padding-top: 20px;
+	font-size: 20px;
+}
+.sidebar .side-links a {
+	display: flex;
+	gap: 20px;
+	text-decoration: none;
+	color: white;
+	align-items: center;
+}

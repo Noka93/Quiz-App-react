@@ -1,0 +1,133 @@
+.signup-page {
+	width: 550px;
+	height: 100vh;
+	align-content: center;
+	align-items: center;
+	margin: 0 auto;
+	padding-top: 2%;
+}
+
+.signup-page .signup-form {
+	height: 89vh;
+	margin: 15px 50px;
+	background-color: #e6e3e3;
+	box-shadow: 0px 8px 32px 0 rgba(246, 246, 250, 0.33);
+	backdrop-filter: blur(5px);
+	border-radius: 20px;
+	align-content: center;
+	align-items: center;
+	text-align: center;
+	padding-top: 2%;
+	position: fixed;
+}
+
+.signup-page .signup-form form {
+	display: flex;
+	flex-direction: column;
+	width: 450px;
+	align-items: center;
+	text-align: center;
+	margin-left: 20px;
+	position: relative;
+}
+
+/* .signup-page h1 {
+	font-size: 30px;
+	color: #e68033;
+	margin: 20px;
+	padding-bottom: 20px;
+	text-align: center;
+} */
+
+.signup-page h2 {
+	font-size: 20px;
+	color: grey;
+	padding-bottom: 13px;
+	text-align: center;
+}
+
+.signup-form input {
+	margin: 8px;
+	align-items: center;
+	width: 390px;
+	border-radius: 30px;
+	padding: 16px 70px;
+	font-size: 15px;
+	background-color:#e6e3e3;
+	border: 1px solid grey;
+}
+
+.signup-form input::placeholder {
+	color: grey;
+}
+
+.signup-form .sign-in {
+	width: 390px;
+	border-radius: 30px;
+	padding: 10px;
+	background-color: #0b666a;
+	margin-top: 17px;
+	font-size: 17px;
+	margin-bottom: 10px;
+	color: grey;
+	border: none;
+	font-weight: 500;
+}
+
+.signup-page .signup-form .email-icon {
+	position: absolute;
+	top: 25px;
+	left: 25px;
+	font-size: 25px;
+	color: grey;
+}
+
+.signup-page .signup-form .name-icon {
+	position: absolute;
+	top: 24px;
+	left: 25px;
+	font-size: 25px;
+	color: grey;
+}
+.signup-page .signup-form .username-icon {
+	position: absolute;
+	top: 23px;
+	left: 25px;
+	font-size: 25px;
+	color: grey;
+}
+
+.signup-page .signup-form .password-icon {
+	position: absolute;
+	top: 23px;
+	left: 25px;
+	font-size: 25px;
+	color: grey;
+}
+
+.already-signUp {
+	color: grey;
+	font-size: 15px;
+}
+
+.already-signUp p {
+	margin: 5px;
+	color: grey;
+}
+
+.already-signUp a {
+	color: grey;
+	font-size: 15px;
+}
+
+.error {
+	font-size: 12px;
+	color: grey;
+	width: 300px;
+	text-align: center;
+	margin-left: 45px;
+}
+
+.signup-input {
+	position: relative;
+}

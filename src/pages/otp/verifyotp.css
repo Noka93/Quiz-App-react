@@ -1,0 +1,89 @@
+.verify-otp {
+	width: 530px;
+	height: 100vh;
+	align-content: center;
+	align-items: center;
+	margin: 0 auto;
+	padding-top: 3%;
+	background-color: #0b666a;
+}
+
+.verify-otp .otp-page {
+	text-align: center;
+	padding-bottom: 10px;
+	color: grey;
+	height: 80vh;
+
+	border-radius: 20px;
+	margin: 25px 50px;
+	background-color: #e6e3e3;
+	box-shadow: 0px 8px 32px 0 rgba(246, 246, 250, 0.33);
+	backdrop-filter: blur(5px);
+	padding-top: 8%;
+}
+
+.otp-page h1 {
+	font-size: 27px;
+}
+
+.verify-otp .otp {
+	margin-top: 8%;
+	border: none;
+}
+
+.verify-otp .otp h2 {
+	font-size: 20px;
+	color: grey;
+	margin: 15px;
+}
+
+.verify-otp .otp p {
+	width: 400px;
+	text-align: center;
+	margin: 20px 5%;
+	color: grey;
+	font-size: 15px;
+}
+
+.verify-otp .btn-otp {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.verify-otp .btn-otp button {
+	width: 350px;
+	padding: 15px;
+	margin: 15px;
+	border-radius: 30px;
+	font-size: 20px;
+	color: grey;
+	font-weight: 600;
+	border: none;
+	background-color: #0b666a;
+}
+
+.btn-otp input {
+	width: 350px;
+	padding: 15px;
+	margin: 10px;
+	border-radius: 30px;
+	font-size: 23px;
+	color: grey;
+	font-weight: 600;
+	border: none;
+	background-color: #0b666a;
+	text-align: center;
+	letter-spacing: 30px;
+}
+
+.btn-otp input::placeholder {
+	color: white;
+	letter-spacing: 20px;
+}
+
+.otp a {
+	text-decoration: none;
+	color: grey;
+	font-size: 17px;
+}

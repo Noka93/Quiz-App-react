@@ -1,0 +1,49 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&family=Roboto&family=Space+Grotesk&display=swap");
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: "Poppins", sans-serif;
+	list-style: none;
+}
+
+.App {
+	height: 100vh;
+	width: 100%;
+	position: relative;
+	background-color: #0B666A;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	overflow: scroll;
+}
+
+.App::before {
+	content: "";
+	position: absolute;
+	height: 300px;
+	width: 300px;
+	border-radius: 50%;
+	background: linear-gradient(#08ffe6, #e68033);
+	transform: translate(-520px, -140px);
+}
+
+.App .container .ball-1 {
+	height: 30px;
+	width: 30px;
+	border-radius: 50%;
+	background: #04f504;
+	transform: translate(-200px, 250px);
+	position: absolute;
+}
+
+.App .container .ball-3 {
+	height: 50px;
+	width: 50px;
+	border-radius: 50%;
+	background: #e68033;
+	transform: translate(150px, 250px);
+	position: absolute;
+}
+
